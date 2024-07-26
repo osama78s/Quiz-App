@@ -59,7 +59,7 @@ const Quiz = () => {
     }
 
     return (
-        <div className='container flex flex-col gap-5 bg-slate-50 p-5 rounded-md text-title w-640 mt-top'>
+        <div className='container flex flex-col gap-5 bg-slate-50 p-5 rounded-md text-title md:w-640 mt-top'>
             {result ?
                 (<>
                     <div className='flex items-center justify-between'>
